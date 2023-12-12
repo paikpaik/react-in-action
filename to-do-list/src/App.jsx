@@ -29,7 +29,7 @@ function App() {
       <hr />
       <ul>
         {todos.map((item, index) => (
-          <li kwy={index}>{item}</li>
+          <li key={index}>{item}</li>
         ))}
       </ul>
     </div>
